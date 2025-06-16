@@ -1,0 +1,14 @@
+#Dependencies and packages need to be installed
+!pip install openai
+!pip install h5py
+!pip install typing-extensions
+!pip install wheel
+!pip install --upgrade langchain
+!pip install chromadb
+!pip install tikoken
+import os
+os.environ["OPENAI_API_KEY"] = "Enter your OpenAI key"
+os.environ["LANGCHAIN_API_KEY"] = "Enter your LangChain key"
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_ENDPOINT"] = "https://api.langchain.plus"
+os.environ["LANGCHAIN_PROJECT"]="Doctor_Bot"
