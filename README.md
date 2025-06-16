@@ -33,9 +33,8 @@ Despite the rise of LLMs, using them safely and effectively for **medical domain
 |-----------------------|---------------------------------------------------|
 | 💡 LLM                | OpenAI GPT-3.5 Turbo via API                      |
 | 🔗 LangChain          | Framework for chaining and memory handling        |
-| 📚 Vector DB          | FAISS / ChromaDB for document retrieval           |
+| 📚 Vector DB          | ChromaDB for document retrieval           |
 | 🧠 Prompt Engineering | CoT prompts for structured and step-wise answers  |
-| 🖼 Frontend           | Streamlit                                         |
-| 📁 Data               | PubMed, WHO FAQs, Custom Medical PDFs (via RAG)   |
+| 📁 Data               | HealthBoards, Icliniq Custom Medical PDFs (via RAG)   |
 
 ---
